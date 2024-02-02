@@ -5,7 +5,7 @@ const buildClient = ({ req }) => {
     // We are on the server
 
     return axios.create({
-      baseURL: "http://www.ticketing-zhahrany-dev.xyz/",
+      baseURL: "http://www.zhahranyappsdev.xyz/",
       headers: req.headers,
     });
   } else {
